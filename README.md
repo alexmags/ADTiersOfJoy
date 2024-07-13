@@ -1,5 +1,14 @@
+    Active Directory
+      _____ _                        __     _             
+     |_   _(_) ___ _ __ ___    ___  / _|   (_) ___  _   _ 
+       | | | |/ _ \ '__/ __|  / _ \| |_    | |/ _ \| | | |
+       | | | |  __/ |  \__ \ | (_) |  _|   | | (_) | |_| |
+       |_| |_|\___|_|  |___/  \___/|_|    _/ |\___/ \__, |
+                                         |__/       |___/ 
+                    Yet another Tiered Admin Model script...
+
 # ADTiersOfJoy
-A script to deploy Active Directory Tiered Administration Model
+A PowerShell script to deploy Active Directory Tiered Administration Model
 The code
 * Creates OUs
 * Creates security groups

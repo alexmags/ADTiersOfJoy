@@ -8,14 +8,15 @@
                     Yet another Tiered Admin Model script...
 
 # ADTiersOfJoy
-A PowerShell script to deploy Active Directory Tiered Administration Model
-The code
+A PowerShell script to deploy Active Directory Tiered Administration Model.
+
+The code:
 * Creates OUs
 * Creates security groups
 * Nests security groups into role groups
 * Delegates permissions to OUs
 
-(!) Test in a lab. Don't experiment in production.  Pick your own group naming convention.  The structure is just an example. Remix to your own requirements.
+(!) Test in a lab. Don't experiment in live envronment.  Replace group names with your own naming convention.  The structure is just an example. Remix to your own requirements.
 
 To do: Combine with Pester tests to ensure Tiered Administration Model rules are followed (no lower tier accounts or groups in higher tier groups/roles) 
 

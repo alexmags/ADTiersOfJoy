@@ -18,7 +18,7 @@ The code:
 
 (!) Test in a lab. Don't experiment in live envronment.  Replace group names with your own naming convention.  The structure is just an example. Remix to your own requirements.
 
-To do: Combine with Pester tests to ensure Tiered Administration Model rules are followed (no lower tier accounts or groups in higher tier groups/roles) 
+To do: Combine with Pester tests to ensure Tiered Administration Model rules are followed (no lower tier accounts or groups in higher tier groups/roles). Eg [Maester framework](https://maester.dev/)
 
 # Credits
 Thanks to the following folks for sharing their code:

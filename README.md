@@ -13,6 +13,7 @@ A PowerShell script to harded Active Directory by deploying Active Directory Tie
 Background reading:
 * [Microsoft describing Protecting Tier 0 the Modern Way](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/protecting-tier-0-the-modern-way/bc-p/4239218)
 * [Microsoft describing how to protect domain admins](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/appendix-f--securing-domain-admins-groups-in-active-directory)
+* [SpecterOps Tier zero table](https://github.com/SpecterOps/TierZeroTable)
 * [TrueSec describing their implementation to Tiered admin model](https://www.truesec.com/security/active-directory-tiering)
 * [Quest descriving Tiered admin model](https://blog.quest.com/the-importance-of-tier-0-and-what-it-means-for-active-directory/)
 * [Trimarc describing using restructed groups, via Group policy, to block higher tier accounts being used on lower tier machines](https://www.hub.trimarcsecurity.com/post/implementing-controls-in-active-directory-protecting-against-privileged-credential-sprawl)

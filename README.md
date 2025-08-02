@@ -17,6 +17,8 @@ Background reading:
 * [TrueSec describing their implementation to Tiered admin model](https://www.truesec.com/security/active-directory-tiering)
 * [Quest describing Tiered admin model](https://blog.quest.com/the-importance-of-tier-0-and-what-it-means-for-active-directory/)
 * [Trimarc describing using restricted groups, via Group policy, to block higher tier accounts being used on lower tier machines](https://www.hub.trimarcsecurity.com/post/implementing-controls-in-active-directory-protecting-against-privileged-credential-sprawl)
+* [ADeleg.exe adeleg the active directory security tool you've never heard of](https://offsec.blog/adeleg-the-active-directory-security-tool-youve-never-heard-of/)
+* [ADeleginator](https://github.com/techspence/ADeleginator)
 
 The code:
 * Creates OUs
@@ -27,7 +29,11 @@ The code:
 You then: 
 * link your existing GPOs to new OU structure
 * Make GPOs to deny login to workstations and application servers with domain admin accounts (no cached domain admin creds on desktops)
-* Update the domain join step of your desktop and server deployment automation. New service account for desktop deployment, not domain admin, with in role group to add desktops to T2 OU. New service account for server deployment, not domain admin, in role group to add servers to T1 OU
+* Update the domain join step of your desktop and server deployment automation to use the t2 desktop or t1 server admin groups. New service account for desktop deployment, not domain admin, with in role group to add desktops to T2 OU. New service account for server deployment, not domain admin, in role group to add servers to T1 OU
+* Sepaarate t1 admin accounts compared to the T2 standard accounts used for day to day work, email, web surfing etc..
+* Add your T1 admin accounts to T1 role groups to inherit T1 permissions
+* Sepaarate t0 admin accounts compared to T1 admin accounts
+* Add your T0 admin accounts to T0 role groups to inherit T0 permissions
 * Move over your users, groups, machines to the new OU structure following the Tiered Administration Model principles
 
 (!) Test in a lab. Don't experiment in live environment.  Replace group names with your own naming convention.  The structure is just an example. Remix to your own requirements.

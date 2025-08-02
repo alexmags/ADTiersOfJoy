@@ -17,7 +17,7 @@ Background reading:
 * [TrueSec describing their implementation to Tiered admin model](https://www.truesec.com/security/active-directory-tiering)
 * [Quest describing Tiered admin model](https://blog.quest.com/the-importance-of-tier-0-and-what-it-means-for-active-directory/)
 * [Trimarc describing using restricted groups, via Group policy, to block higher tier accounts being used on lower tier machines](https://www.hub.trimarcsecurity.com/post/implementing-controls-in-active-directory-protecting-against-privileged-credential-sprawl)
-* [ADeleg.exe adeleg the active directory security tool you've never heard of](https://offsec.blog/adeleg-the-active-directory-security-tool-youve-never-heard-of/)
+* [ADeleg.exe the active directory security tool you've never heard of](https://offsec.blog/adeleg-the-active-directory-security-tool-youve-never-heard-of/)
 * [ADeleginator](https://github.com/techspence/ADeleginator)
 
 The code:

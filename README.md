@@ -10,6 +10,9 @@
 # ADTiersOfJoy
 A PowerShell script to harden Active Directory by deploying Active Directory Tiered Administration Model.
 
+# update - Microsoft's own implementation 
+Microsoft have released a Tiered Admin Model script. You should use that instead. [https://github.com/microsoft/ActiveDirectoryTierModel](https://github.com/microsoft/ActiveDirectoryTierModel)
+
 Background reading:
 * [Microsoft describing Protecting Tier 0 the Modern Way](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/protecting-tier-0-the-modern-way/bc-p/4239218)
 * [Microsoft describing how to protect domain admins](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/appendix-f--securing-domain-admins-groups-in-active-directory)
